@@ -1,0 +1,501 @@
+﻿product_id,product_name,category,subcategory,brand,unit_price,cost_price,supplier_id,in_stock,is_active
+1,Samsung Смартфон Lite-308,Смартфони,Samsung,Samsung,44305,33162,104,72,True
+2,Apple Смартфон Pro Max-730,Смартфони,Apple,Apple,40215,30240,128,80,True
+3,Samsung Смартфон Lite-144,Смартфони,Samsung,Samsung,49416,36500,104,8,True
+4,OnePlus Смартфон Ultra-160,Смартфони,OnePlus,OnePlus,7578,5254,113,0,True
+5,Google Смартфон SE-340,Смартфони,Google,Google,6806,5660,106,80,True
+6,OnePlus Смартфон Pro Max-736,Смартфони,OnePlus,OnePlus,25449,19309,118,77,False
+7,Apple Смартфон SE-338,Смартфони,Apple,Apple,18649,15416,116,55,True
+8,Google Смартфон Lite-552,Смартфони,Google,Google,15380,10020,111,0,True
+9,OnePlus Смартфон Note-703,Смартфони,OnePlus,OnePlus,16860,12824,108,12,True
+10,Google Смартфон Note-322,Смартфони,Google,Google,5861,4318,115,45,True
+11,Google Смартфон Pro Max-221,Смартфони,Google,Google,39069,27468,130,99,True
+12,Google Смартфон Pro Max-292,Смартфони,Google,Google,19821,13171,128,58,True
+13,Xiaomi Смартфон Lite-441,Смартфони,Xiaomi,Xiaomi,7832,5360,107,44,True
+14,Realme Смартфон Lite-462,Смартфони,Realme,Realme,9449,7456,121,48,True
+15,Google Смартфон SE-443,Смартфони,Google,Google,45961,34691,126,28,True
+16,Xiaomi Смартфон Note-801,Смартфони,Xiaomi,Xiaomi,45903,36983,122,86,False
+17,Xiaomi Смартфон Lite-533,Смартфони,Xiaomi,Xiaomi,14351,11079,107,58,True
+18,Xiaomi Смартфон SE-420,Смартфони,Xiaomi,Xiaomi,22289,17324,112,60,True
+19,Realme Смартфон Pro Max-572,Смартфони,Realme,Realme,35512,25455,109,86,False
+20,Xiaomi Смартфон Lite-916,Смартфони,Xiaomi,Xiaomi,8816,7347,129,77,True
+21,OnePlus Смартфон Lite-243,Смартфони,OnePlus,OnePlus,45326,35761,128,9,True
+22,OnePlus Смартфон Lite-385,Смартфони,OnePlus,OnePlus,5720,4196,127,88,True
+23,OnePlus Смартфон SE-288,Смартфони,OnePlus,OnePlus,5232,4161,117,84,True
+24,Apple Смартфон Ultra-558,Смартфони,Apple,Apple,24373,18964,123,28,True
+25,Apple Смартфон Lite-271,Смартфони,Apple,Apple,48851,38293,124,87,True
+26,Google Смартфон SE-353,Смартфони,Google,Google,19125,13816,129,57,True
+27,Xiaomi Смартфон SE-741,Смартфони,Xiaomi,Xiaomi,48832,35183,112,49,True
+28,Xiaomi Смартфон Plus-785,Смартфони,Xiaomi,Xiaomi,35993,29398,116,83,False
+29,Xiaomi Смартфон Lite-305,Смартфони,Xiaomi,Xiaomi,15477,10610,104,28,True
+30,Apple Смартфон SE-123,Смартфони,Apple,Apple,28528,24104,107,88,True
+31,Realme Смартфон Lite-645,Смартфони,Realme,Realme,18704,14898,121,32,True
+32,Samsung Смартфон Pro Max-839,Смартфони,Samsung,Samsung,18103,13455,108,20,True
+33,Samsung Смартфон Pro Max-643,Смартфони,Samsung,Samsung,37746,31201,112,54,True
+34,OnePlus Смартфон Lite-645,Смартфони,OnePlus,OnePlus,14565,11410,116,7,True
+35,Xiaomi Смартфон Note-386,Смартфони,Xiaomi,Xiaomi,29311,22890,103,17,True
+36,Google Смартфон SE-975,Смартфони,Google,Google,27354,19385,115,36,True
+37,OnePlus Смартфон SE-587,Смартфони,OnePlus,OnePlus,30906,22211,129,70,True
+38,OnePlus Смартфон Ultra-887,Смартфони,OnePlus,OnePlus,8656,6771,130,42,True
+39,Samsung Смартфон Plus-638,Смартфони,Samsung,Samsung,15017,9793,118,80,True
+40,OnePlus Смартфон SE-768,Смартфони,OnePlus,OnePlus,5155,4040,107,67,True
+41,Apple Смартфон Pro Max-941,Смартфони,Apple,Apple,31693,22583,128,9,True
+42,Samsung Смартфон Note-869,Смартфони,Samsung,Samsung,37294,28912,112,31,True
+43,Samsung Смартфон Note-457,Смартфони,Samsung,Samsung,43045,29143,103,15,True
+44,Realme Смартфон Pro Max-210,Смартфони,Realme,Realme,7090,5518,106,29,False
+45,Realme Смартфон Pro Max-105,Смартфони,Realme,Realme,31895,22134,114,50,False
+46,Apple Смартфон Plus-896,Смартфони,Apple,Apple,32691,26440,130,92,True
+47,Apple Смартфон Note-710,Смартфони,Apple,Apple,27493,21500,102,34,True
+48,Realme Смартфон Lite-886,Смартфони,Realme,Realme,19258,14898,112,35,True
+49,Apple Смартфон Plus-323,Смартфони,Apple,Apple,20796,16942,125,23,True
+50,Google Смартфон Note-847,Смартфони,Google,Google,40529,31555,125,33,True
+51,OnePlus Смартфон Pro Max-720,Смартфони,OnePlus,OnePlus,34833,27380,114,26,False
+52,Google Смартфон Plus-926,Смартфони,Google,Google,20600,14005,115,44,True
+53,OnePlus Смартфон Pro Max-536,Смартфони,OnePlus,OnePlus,10105,7792,111,53,True
+54,Apple Смартфон Note-121,Смартфони,Apple,Apple,29292,21609,105,8,False
+55,Apple Смартфон Plus-458,Смартфони,Apple,Apple,31490,21275,122,71,True
+56,OnePlus Смартфон Lite-438,Смартфони,OnePlus,OnePlus,34015,26289,113,67,True
+57,Realme Смартфон Lite-574,Смартфони,Realme,Realme,5371,4288,112,29,False
+58,Samsung Смартфон Pro Max-194,Смартфони,Samsung,Samsung,11541,8285,127,39,True
+59,Apple Смартфон Ultra-314,Смартфони,Apple,Apple,18710,12309,120,17,True
+60,Samsung Смартфон Note-615,Смартфони,Samsung,Samsung,42674,34520,116,11,True
+61,Google Смартфон Plus-967,Смартфони,Google,Google,20831,17152,121,12,False
+62,Google Смартфон Pro Max-685,Смартфони,Google,Google,41349,34656,116,80,True
+63,Xiaomi Смартфон Plus-285,Смартфони,Xiaomi,Xiaomi,11714,9543,120,40,True
+64,Xiaomi Смартфон Plus-114,Смартфони,Xiaomi,Xiaomi,7532,5676,124,42,True
+65,Google Смартфон Note-357,Смартфони,Google,Google,13325,11211,101,51,True
+66,Xiaomi Смартфон Lite-152,Смартфони,Xiaomi,Xiaomi,7149,4748,121,2,True
+67,Apple Смартфон Note-405,Смартфони,Apple,Apple,21158,14180,124,71,True
+68,Realme Смартфон Ultra-321,Смартфони,Realme,Realme,22036,14736,129,72,True
+69,OnePlus Смартфон Ultra-201,Смартфони,OnePlus,OnePlus,42712,29120,114,89,True
+70,Samsung Смартфон SE-597,Смартфони,Samsung,Samsung,28697,24049,124,44,True
+71,Google Смартфон Plus-377,Смартфони,Google,Google,6640,5281,106,65,False
+72,Samsung Смартфон Ultra-401,Смартфони,Samsung,Samsung,7152,4955,122,84,True
+73,Xiaomi Смартфон Ultra-313,Смартфони,Xiaomi,Xiaomi,15646,11351,108,72,True
+74,Samsung Смартфон Pro Max-318,Смартфони,Samsung,Samsung,41613,32001,129,27,True
+75,Google Смартфон SE-428,Смартфони,Google,Google,40629,26860,103,58,True
+76,Xiaomi Смартфон SE-828,Смартфони,Xiaomi,Xiaomi,31182,25451,101,40,True
+77,Xiaomi Смартфон Plus-813,Смартфони,Xiaomi,Xiaomi,29688,23156,130,10,True
+78,Samsung Смартфон Ultra-445,Смартфони,Samsung,Samsung,44844,32438,121,73,True
+79,Samsung Смартфон Lite-325,Смартфони,Samsung,Samsung,9767,7283,121,46,True
+80,OnePlus Смартфон Pro Max-814,Смартфони,OnePlus,OnePlus,25831,20419,126,49,True
+81,Realme Смартфон Lite-954,Смартфони,Realme,Realme,36719,29550,113,88,False
+82,OnePlus Смартфон SE-706,Смартфони,OnePlus,OnePlus,13990,9951,117,40,True
+83,Samsung Смартфон Ultra-375,Смартфони,Samsung,Samsung,35783,24013,115,94,True
+84,Apple Смартфон Plus-573,Смартфони,Apple,Apple,41191,33976,112,20,False
+85,Google Смартфон SE-960,Смартфони,Google,Google,48013,35320,123,16,True
+86,Xiaomi Смартфон SE-626,Смартфони,Xiaomi,Xiaomi,15973,11128,126,68,True
+87,Google Смартфон SE-512,Смартфони,Google,Google,17223,11660,108,97,False
+88,Apple Смартфон SE-618,Смартфони,Apple,Apple,34295,28056,116,70,True
+89,OnePlus Смартфон SE-162,Смартфони,OnePlus,OnePlus,31168,25217,120,41,True
+90,Xiaomi Смартфон Lite-448,Смартфони,Xiaomi,Xiaomi,35478,25674,128,26,False
+91,Google Смартфон Note-896,Смартфони,Google,Google,43618,35356,115,100,True
+92,Xiaomi Смартфон Lite-639,Смартфони,Xiaomi,Xiaomi,5565,4299,122,8,True
+93,Xiaomi Смартфон Lite-223,Смартфони,Xiaomi,Xiaomi,13287,10305,109,35,True
+94,Realme Смартфон Note-364,Смартфони,Realme,Realme,12946,10611,123,2,True
+95,OnePlus Смартфон Ultra-675,Смартфони,OnePlus,OnePlus,27600,20631,123,23,True
+96,Xiaomi Смартфон Plus-670,Смартфони,Xiaomi,Xiaomi,12927,9405,109,49,True
+97,OnePlus Смартфон Pro Max-444,Смартфони,OnePlus,OnePlus,27362,21530,112,94,True
+98,Samsung Смартфон Lite-117,Смартфони,Samsung,Samsung,15871,11478,111,46,True
+99,Google Смартфон Plus-938,Смартфони,Google,Google,8877,5953,113,72,True
+100,Realme Смартфон SE-135,Смартфони,Realme,Realme,10792,7735,110,90,True
+101,Acer Ноутбук MacBook-717,Ноутбуки,Acer,Acer,60921,46378,106,28,False
+102,Acer Ноутбук Pavilion-950,Ноутбуки,Acer,Acer,52289,39983,126,48,True
+103,Lenovo Ноутбук Gaming-449,Ноутбуки,Lenovo,Lenovo,37024,27246,115,3,True
+104,HP Ноутбук Gaming-873,Ноутбуки,HP,HP,24124,19237,120,21,True
+105,MSI Ноутбук Inspiron-279,Ноутбуки,MSI,MSI,17454,11571,107,31,True
+106,Dell Ноутбук ZenBook-877,Ноутбуки,Dell,Dell,42143,30571,110,66,False
+107,MSI Ноутбук Pavilion-907,Ноутбуки,MSI,MSI,63218,48411,113,64,True
+108,Apple Ноутбук Pavilion-155,Ноутбуки,Apple,Apple,64349,48432,112,9,True
+109,Lenovo Ноутбук Inspiron-753,Ноутбуки,Lenovo,Lenovo,31031,20473,122,93,True
+110,Apple Ноутбук MacBook-292,Ноутбуки,Apple,Apple,60322,47018,122,30,True
+111,MSI Ноутбук Gaming-434,Ноутбуки,MSI,MSI,50311,42082,126,91,True
+112,ASUS Ноутбук Inspiron-647,Ноутбуки,ASUS,ASUS,37868,27521,103,30,True
+113,Apple Ноутбук MacBook-783,Ноутбуки,Apple,Apple,30122,22087,128,25,True
+114,HP Ноутбук ZenBook-869,Ноутбуки,HP,HP,55836,39981,119,52,True
+115,Dell Ноутбук Pavilion-785,Ноутбуки,Dell,Dell,18617,14517,114,49,True
+116,HP Ноутбук Inspiron-526,Ноутбуки,HP,HP,29031,24188,102,99,True
+117,Lenovo Ноутбук Pavilion-365,Ноутбуки,Lenovo,Lenovo,45888,31951,109,69,False
+118,HP Ноутбук MacBook-906,Ноутбуки,HP,HP,62560,49971,125,70,False
+119,Lenovo Ноутбук Inspiron-467,Ноутбуки,Lenovo,Lenovo,68212,53245,121,46,True
+120,HP Ноутбук MacBook-121,Ноутбуки,HP,HP,67776,50262,105,12,True
+121,Acer Ноутбук Gaming-386,Ноутбуки,Acer,Acer,67649,49727,125,4,True
+122,Lenovo Ноутбук Gaming-933,Ноутбуки,Lenovo,Lenovo,49725,32818,120,39,True
+123,Lenovo Ноутбук Pavilion-318,Ноутбуки,Lenovo,Lenovo,17260,11733,102,82,True
+124,ASUS Ноутбук Pavilion-350,Ноутбуки,ASUS,ASUS,46277,33661,126,72,True
+125,ASUS Ноутбук MacBook-721,Ноутбуки,ASUS,ASUS,33037,22153,115,31,True
+126,HP Ноутбук ZenBook-234,Ноутбуки,HP,HP,42346,31668,105,78,True
+127,Lenovo Ноутбук ZenBook-466,Ноутбуки,Lenovo,Lenovo,30708,21031,129,64,True
+128,Lenovo Ноутбук ThinkPad-144,Ноутбуки,Lenovo,Lenovo,48288,34854,107,62,True
+129,Dell Ноутбук Inspiron-723,Ноутбуки,Dell,Dell,32256,22602,105,84,True
+130,HP Ноутбук Gaming-417,Ноутбуки,HP,HP,27297,20697,123,79,True
+131,Lenovo Ноутбук ThinkPad-665,Ноутбуки,Lenovo,Lenovo,32886,22559,123,73,True
+132,Lenovo Ноутбук MacBook-806,Ноутбуки,Lenovo,Lenovo,55042,45870,107,33,True
+133,Apple Ноутбук ThinkPad-103,Ноутбуки,Apple,Apple,24587,18429,120,31,False
+134,Lenovo Ноутбук ThinkPad-627,Ноутбуки,Lenovo,Lenovo,21206,15590,108,80,True
+135,Apple Ноутбук ThinkPad-580,Ноутбуки,Apple,Apple,68800,53113,128,100,True
+136,Apple Ноутбук ZenBook-182,Ноутбуки,Apple,Apple,52149,35507,108,4,False
+137,ASUS Ноутбук Pavilion-159,Ноутбуки,ASUS,ASUS,44473,32044,120,34,False
+138,Acer Ноутбук ZenBook-837,Ноутбуки,Acer,Acer,40778,32164,101,3,True
+139,Apple Ноутбук Inspiron-186,Ноутбуки,Apple,Apple,66491,52509,105,62,True
+140,Acer Ноутбук MacBook-642,Ноутбуки,Acer,Acer,30354,24565,112,19,True
+141,MSI Ноутбук Pavilion-876,Ноутбуки,MSI,MSI,50986,42159,106,99,True
+142,HP Ноутбук ZenBook-299,Ноутбуки,HP,HP,66905,46800,111,11,True
+143,HP Ноутбук Gaming-143,Ноутбуки,HP,HP,35425,24841,121,12,True
+144,Acer Ноутбук Pavilion-898,Ноутбуки,Acer,Acer,60619,42555,101,92,True
+145,Acer Ноутбук Inspiron-982,Ноутбуки,Acer,Acer,30581,25041,103,17,True
+146,Acer Ноутбук ThinkPad-936,Ноутбуки,Acer,Acer,56665,41000,113,50,True
+147,MSI Ноутбук ZenBook-596,Ноутбуки,MSI,MSI,41883,28694,129,96,True
+148,MSI Ноутбук Pavilion-453,Ноутбуки,MSI,MSI,15398,10940,122,71,True
+149,Lenovo Ноутбук MacBook-903,Ноутбуки,Lenovo,Lenovo,58542,39917,102,95,True
+150,ASUS Ноутбук MacBook-395,Ноутбуки,ASUS,ASUS,56953,39094,119,87,True
+151,ASUS Ноутбук Gaming-992,Ноутбуки,ASUS,ASUS,47607,32296,117,100,True
+152,Dell Ноутбук ZenBook-422,Ноутбуки,Dell,Dell,42417,34042,106,29,True
+153,MSI Ноутбук Pavilion-369,Ноутбуки,MSI,MSI,64545,51186,115,32,True
+154,HP Ноутбук MacBook-693,Ноутбуки,HP,HP,16020,12375,109,4,True
+155,ASUS Ноутбук ThinkPad-646,Ноутбуки,ASUS,ASUS,32235,24020,105,43,True
+156,ASUS Ноутбук Gaming-342,Ноутбуки,ASUS,ASUS,53623,35634,130,94,True
+157,Lenovo Ноутбук ZenBook-842,Ноутбуки,Lenovo,Lenovo,32399,27480,121,13,False
+158,HP Ноутбук Inspiron-103,Ноутбуки,HP,HP,64534,53411,117,42,True
+159,Acer Ноутбук Pavilion-439,Ноутбуки,Acer,Acer,19251,14798,112,96,True
+160,Dell Ноутбук ZenBook-980,Ноутбуки,Dell,Dell,52692,43650,103,66,True
+161,Apple Ноутбук Gaming-498,Ноутбуки,Apple,Apple,61446,46479,101,87,True
+162,Apple Ноутбук Inspiron-961,Ноутбуки,Apple,Apple,58752,44389,123,16,True
+163,Lenovo Ноутбук Gaming-266,Ноутбуки,Lenovo,Lenovo,45397,31043,119,60,True
+164,Acer Ноутбук ZenBook-261,Ноутбуки,Acer,Acer,55730,46558,106,38,True
+165,Acer Ноутбук Gaming-967,Ноутбуки,Acer,Acer,39136,30941,108,77,False
+166,ASUS Ноутбук Pavilion-695,Ноутбуки,ASUS,ASUS,43275,30595,103,26,True
+167,Dell Ноутбук ZenBook-644,Ноутбуки,Dell,Dell,31931,21850,114,1,True
+168,Dell Ноутбук Inspiron-630,Ноутбуки,Dell,Dell,62587,48422,122,82,False
+169,MSI Ноутбук MacBook-352,Ноутбуки,MSI,MSI,66331,44668,125,36,True
+170,ASUS Ноутбук Pavilion-882,Ноутбуки,ASUS,ASUS,31989,22925,104,42,True
+171,Acer Ноутбук MacBook-668,Ноутбуки,Acer,Acer,34978,24319,123,36,True
+172,HP Ноутбук Pavilion-139,Ноутбуки,HP,HP,35322,29669,118,59,False
+173,Lenovo Ноутбук ZenBook-466,Ноутбуки,Lenovo,Lenovo,33161,28024,119,78,True
+174,Dell Ноутбук ZenBook-392,Ноутбуки,Dell,Dell,18318,14906,121,44,True
+175,Dell Ноутбук Gaming-258,Ноутбуки,Dell,Dell,37106,28475,114,93,False
+176,MSI Ноутбук Gaming-349,Ноутбуки,MSI,MSI,64003,51621,130,38,True
+177,Apple Ноутбук Pavilion-303,Ноутбуки,Apple,Apple,36601,28866,109,97,True
+178,HP Ноутбук ThinkPad-597,Ноутбуки,HP,HP,48405,40231,114,10,True
+179,Lenovo Ноутбук MacBook-138,Ноутбуки,Lenovo,Lenovo,42305,31781,102,2,True
+180,Dell Ноутбук Inspiron-368,Ноутбуки,Dell,Dell,24487,18036,125,75,True
+181,ASUS Ноутбук ZenBook-681,Ноутбуки,ASUS,ASUS,69605,55291,105,38,True
+182,ASUS Ноутбук Gaming-525,Ноутбуки,ASUS,ASUS,42487,30047,125,6,True
+183,HP Ноутбук Pavilion-425,Ноутбуки,HP,HP,50618,33983,114,3,True
+184,ASUS Ноутбук ThinkPad-681,Ноутбуки,ASUS,ASUS,43613,31872,123,85,True
+185,ASUS Ноутбук Pavilion-764,Ноутбуки,ASUS,ASUS,44103,36976,117,20,True
+186,HP Ноутбук ThinkPad-706,Ноутбуки,HP,HP,27493,19077,130,10,True
+187,MSI Ноутбук MacBook-652,Ноутбуки,MSI,MSI,36097,24887,105,64,False
+188,ASUS Ноутбук Inspiron-544,Ноутбуки,ASUS,ASUS,21337,14942,117,64,False
+189,HP Ноутбук MacBook-892,Ноутбуки,HP,HP,49949,42034,115,55,True
+190,Lenovo Ноутбук ZenBook-345,Ноутбуки,Lenovo,Lenovo,25705,20943,129,40,True
+191,Lenovo Ноутбук Inspiron-839,Ноутбуки,Lenovo,Lenovo,19904,16876,126,81,True
+192,Apple Ноутбук ThinkPad-182,Ноутбуки,Apple,Apple,44444,32852,108,77,True
+193,Apple Ноутбук Inspiron-797,Ноутбуки,Apple,Apple,31599,26302,105,92,True
+194,ASUS Ноутбук Gaming-160,Ноутбуки,ASUS,ASUS,31645,23333,106,89,True
+195,ASUS Ноутбук Inspiron-834,Ноутбуки,ASUS,ASUS,31718,22629,105,29,True
+196,ASUS Ноутбук ZenBook-783,Ноутбуки,ASUS,ASUS,55635,36276,121,85,True
+197,HP Ноутбук Gaming-823,Ноутбуки,HP,HP,38233,27388,107,81,True
+198,ASUS Ноутбук Gaming-734,Ноутбуки,ASUS,ASUS,35254,26457,130,55,True
+199,ASUS Ноутбук Inspiron-534,Ноутбуки,ASUS,ASUS,15287,10913,117,65,True
+200,Apple Ноутбук ZenBook-921,Ноутбуки,Apple,Apple,66928,50419,118,12,False
+201,Lenovo Планшет Tablet-672,Планшети,Lenovo,Lenovo,31356,22416,103,0,True
+202,Xiaomi Планшет iPad-896,Планшети,Xiaomi,Xiaomi,32197,21942,119,61,True
+203,Samsung Планшет Tablet-397,Планшети,Samsung,Samsung,38662,32448,127,29,True
+204,Xiaomi Планшет Tablet-974,Планшети,Xiaomi,Xiaomi,36910,26378,106,99,True
+205,Apple Планшет Tablet-393,Планшети,Apple,Apple,21715,16439,109,47,True
+206,Lenovo Планшет Pad-392,Планшети,Lenovo,Lenovo,30288,23777,129,21,True
+207,Samsung Планшет Tablet-590,Планшети,Samsung,Samsung,23777,16044,101,13,True
+208,Samsung Планшет Tablet-947,Планшети,Samsung,Samsung,21032,16822,113,81,True
+209,Huawei Планшет Tablet-839,Планшети,Huawei,Huawei,37025,27783,119,6,True
+210,Lenovo Планшет Tablet-522,Планшети,Lenovo,Lenovo,34428,28302,123,68,True
+211,Huawei Планшет Tab-931,Планшети,Huawei,Huawei,15163,10261,124,24,False
+212,Lenovo Планшет iPad-737,Планшети,Lenovo,Lenovo,19047,15419,109,65,True
+213,Lenovo Планшет Tablet-563,Планшети,Lenovo,Lenovo,32833,26610,118,63,True
+214,Samsung Планшет Tablet-222,Планшети,Samsung,Samsung,24288,20624,118,25,True
+215,Samsung Планшет Pad-315,Планшети,Samsung,Samsung,28518,23135,126,77,False
+216,Huawei Планшет Tablet-984,Планшети,Huawei,Huawei,8142,6236,120,70,False
+217,Apple Планшет iPad-214,Планшети,Apple,Apple,28025,20841,105,66,True
+218,Apple Планшет Pad-958,Планшети,Apple,Apple,19349,13953,127,63,True
+219,Samsung Планшет Pad-805,Планшети,Samsung,Samsung,15365,12098,128,2,True
+220,Lenovo Планшет Pad-909,Планшети,Lenovo,Lenovo,34868,23805,107,81,True
+221,Huawei Планшет Pad-604,Планшети,Huawei,Huawei,30338,25277,129,95,True
+222,Samsung Планшет Pad-303,Планшети,Samsung,Samsung,31608,23679,118,19,True
+223,Lenovo Планшет iPad-859,Планшети,Lenovo,Lenovo,19265,16280,116,3,True
+224,Huawei Планшет Tablet-673,Планшети,Huawei,Huawei,27927,22757,118,13,True
+225,Samsung Планшет Tab-776,Планшети,Samsung,Samsung,20103,14327,115,30,True
+226,Apple Планшет Pad-176,Планшети,Apple,Apple,38481,28221,111,91,False
+227,Huawei Планшет Pad-924,Планшети,Huawei,Huawei,26445,17842,118,34,True
+228,Huawei Планшет Pad-132,Планшети,Huawei,Huawei,13303,10429,110,44,True
+229,Huawei Планшет Pad-654,Планшети,Huawei,Huawei,27339,22700,114,98,True
+230,Xiaomi Планшет Tab-144,Планшети,Xiaomi,Xiaomi,33484,23824,110,58,True
+231,Samsung Планшет Tab-673,Планшети,Samsung,Samsung,17782,14070,113,54,True
+232,Xiaomi Планшет Tab-995,Планшети,Xiaomi,Xiaomi,23357,19053,116,82,True
+233,Xiaomi Планшет Tab-601,Планшети,Xiaomi,Xiaomi,15872,12010,114,44,True
+234,Lenovo Планшет iPad-564,Планшети,Lenovo,Lenovo,15822,12348,126,56,True
+235,Xiaomi Планшет Tablet-537,Планшети,Xiaomi,Xiaomi,11659,8168,117,99,True
+236,Samsung Планшет iPad-386,Планшети,Samsung,Samsung,37490,26792,105,35,True
+237,Samsung Планшет Pad-332,Планшети,Samsung,Samsung,29592,22447,123,44,True
+238,Apple Планшет Pad-364,Планшети,Apple,Apple,28155,21640,109,74,True
+239,Huawei Планшет iPad-886,Планшети,Huawei,Huawei,17999,13864,129,52,True
+240,Lenovo Планшет Tab-879,Планшети,Lenovo,Lenovo,10189,8333,103,25,True
+241,Apple Планшет Tablet-275,Планшети,Apple,Apple,11716,8898,114,54,True
+242,Xiaomi Планшет Tab-810,Планшети,Xiaomi,Xiaomi,35390,26201,104,7,True
+243,Huawei Планшет Pad-942,Планшети,Huawei,Huawei,23092,19340,115,46,True
+244,Apple Планшет Pad-884,Планшети,Apple,Apple,14874,10127,127,16,True
+245,Samsung Планшет iPad-423,Планшети,Samsung,Samsung,32651,22506,105,28,True
+246,Samsung Планшет iPad-594,Планшети,Samsung,Samsung,29381,19386,112,28,True
+247,Lenovo Планшет Tablet-975,Планшети,Lenovo,Lenovo,13709,8944,108,15,True
+248,Huawei Планшет Tab-499,Планшети,Huawei,Huawei,33335,27113,113,55,True
+249,Xiaomi Планшет Pad-366,Планшети,Xiaomi,Xiaomi,22531,17654,119,62,True
+250,Huawei Планшет Tab-839,Планшети,Huawei,Huawei,29249,19108,128,19,True
+251,Apple Планшет Pad-462,Планшети,Apple,Apple,20383,14192,130,36,True
+252,Samsung Планшет iPad-383,Планшети,Samsung,Samsung,14082,10109,112,99,True
+253,Samsung Планшет Tab-797,Планшети,Samsung,Samsung,8214,6525,118,36,True
+254,Samsung Планшет iPad-949,Планшети,Samsung,Samsung,26913,19720,125,40,True
+255,Apple Планшет Tablet-936,Планшети,Apple,Apple,20357,16401,105,9,True
+256,Apple Планшет Tablet-320,Планшети,Apple,Apple,23222,17035,105,27,True
+257,Lenovo Планшет Pad-656,Планшети,Lenovo,Lenovo,9484,8021,119,58,True
+258,Xiaomi Планшет Tablet-602,Планшети,Xiaomi,Xiaomi,16725,12409,130,86,False
+259,Apple Планшет Tablet-862,Планшети,Apple,Apple,11738,8160,104,52,True
+260,Apple Планшет iPad-970,Планшети,Apple,Apple,13206,10594,113,72,True
+261,Lenovo Планшет Tablet-743,Планшети,Lenovo,Lenovo,28491,20262,119,57,True
+262,Samsung Планшет Tablet-574,Планшети,Samsung,Samsung,30596,22024,105,85,True
+263,Apple Планшет Pad-655,Планшети,Apple,Apple,18544,14874,113,25,True
+264,Lenovo Планшет Pad-639,Планшети,Lenovo,Lenovo,36904,25367,122,48,True
+265,Xiaomi Планшет Tablet-556,Планшети,Xiaomi,Xiaomi,22868,16600,120,62,True
+266,Huawei Планшет Tablet-828,Планшети,Huawei,Huawei,33322,23888,115,55,True
+267,Lenovo Планшет Pad-208,Планшети,Lenovo,Lenovo,37884,29873,111,9,True
+268,Huawei Планшет Tablet-921,Планшети,Huawei,Huawei,12054,8348,110,81,True
+269,Samsung Планшет Pad-139,Планшети,Samsung,Samsung,15987,11528,102,86,True
+270,Lenovo Планшет Tablet-851,Планшети,Lenovo,Lenovo,32688,26851,125,28,True
+271,Xiaomi Планшет Pad-145,Планшети,Xiaomi,Xiaomi,38009,31922,120,88,True
+272,Xiaomi Планшет iPad-453,Планшети,Xiaomi,Xiaomi,36009,23731,102,24,True
+273,Huawei Планшет Tablet-690,Планшети,Huawei,Huawei,28812,21119,109,10,True
+274,Apple Планшет Pad-320,Планшети,Apple,Apple,32891,24480,105,90,True
+275,Huawei Планшет Tab-622,Планшети,Huawei,Huawei,11124,8807,105,54,True
+276,Lenovo Планшет iPad-735,Планшети,Lenovo,Lenovo,35404,26085,108,98,True
+277,Huawei Планшет Tab-330,Планшети,Huawei,Huawei,16386,11401,113,56,False
+278,Apple Планшет Tab-129,Планшети,Apple,Apple,36623,24545,104,93,True
+279,Huawei Планшет Pad-411,Планшети,Huawei,Huawei,30955,23324,130,62,True
+280,Huawei Планшет Tablet-715,Планшети,Huawei,Huawei,14099,11596,113,73,True
+281,Huawei Планшет Pad-667,Планшети,Huawei,Huawei,25274,18747,128,50,True
+282,Huawei Планшет Tab-879,Планшети,Huawei,Huawei,38392,31771,110,48,True
+283,Samsung Планшет iPad-448,Планшети,Samsung,Samsung,13634,10928,117,85,False
+284,Huawei Планшет Pad-504,Планшети,Huawei,Huawei,23535,19079,102,62,True
+285,Huawei Планшет iPad-894,Планшети,Huawei,Huawei,22581,18916,110,98,True
+286,Huawei Планшет Tablet-618,Планшети,Huawei,Huawei,30380,21549,108,31,True
+287,Xiaomi Планшет iPad-187,Планшети,Xiaomi,Xiaomi,24501,17629,101,7,True
+288,Samsung Планшет Pad-371,Планшети,Samsung,Samsung,23440,16584,104,67,True
+289,Apple Планшет Tablet-892,Планшети,Apple,Apple,25831,20302,107,71,True
+290,Apple Планшет Tablet-715,Планшети,Apple,Apple,13225,8842,107,28,False
+291,Lenovo Планшет Tablet-172,Планшети,Lenovo,Lenovo,11998,10037,112,24,True
+292,Samsung Планшет Pad-244,Планшети,Samsung,Samsung,26501,18051,105,13,True
+293,Lenovo Планшет Tab-369,Планшети,Lenovo,Lenovo,22829,17267,107,21,True
+294,Xiaomi Планшет Tablet-813,Планшети,Xiaomi,Xiaomi,9307,7669,102,37,True
+295,Lenovo Планшет iPad-550,Планшети,Lenovo,Lenovo,29507,24100,102,83,True
+296,Huawei Планшет Pad-424,Планшети,Huawei,Huawei,26321,21162,126,24,True
+297,Xiaomi Планшет Tablet-134,Планшети,Xiaomi,Xiaomi,30019,22442,110,92,True
+298,Huawei Планшет Tab-324,Планшети,Huawei,Huawei,28166,22059,122,53,True
+299,Huawei Планшет iPad-717,Планшети,Huawei,Huawei,8366,6539,128,99,True
+300,Apple Планшет Pad-362,Планшети,Apple,Apple,39717,29558,115,37,True
+301,Logitech Аксесуар Wireless-465,Аксесуари,Logitech,Logitech,1856,1296,123,56,False
+302,Sony Аксесуар Pro-870,Аксесуари,Sony,Sony,1711,1267,109,57,True
+303,Anker Аксесуар Pro-314,Аксесуари,Anker,Anker,521,434,106,7,True
+304,JBL Аксесуар Mini-456,Аксесуари,JBL,JBL,4007,3029,102,6,True
+305,Logitech Аксесуар Wireless-361,Аксесуари,Logitech,Logitech,1955,1346,111,37,True
+306,Anker Аксесуар Mini-877,Аксесуари,Anker,Anker,2559,2169,111,54,True
+307,Belkin Аксесуар Mini-482,Аксесуари,Belkin,Belkin,250,166,126,66,True
+308,Belkin Аксесуар Mini-519,Аксесуари,Belkin,Belkin,1956,1645,129,84,True
+309,Anker Аксесуар Plus-249,Аксесуари,Anker,Anker,642,520,128,38,False
+310,Belkin Аксесуар Plus-797,Аксесуари,Belkin,Belkin,452,324,120,15,True
+311,Anker Аксесуар Pro-169,Аксесуари,Anker,Anker,3360,2187,128,84,True
+312,Belkin Аксесуар Mini-120,Аксесуари,Belkin,Belkin,2012,1561,103,51,True
+313,Sony Аксесуар Pro-231,Аксесуари,Sony,Sony,4436,3467,126,46,True
+314,Belkin Аксесуар Wireless-248,Аксесуари,Belkin,Belkin,3235,2335,126,71,True
+315,JBL Аксесуар Max-606,Аксесуари,JBL,JBL,2533,1673,107,60,False
+316,Anker Аксесуар Mini-916,Аксесуари,Anker,Anker,3775,2470,125,81,True
+317,JBL Аксесуар Max-659,Аксесуари,JBL,JBL,1111,748,123,1,True
+318,JBL Аксесуар Max-704,Аксесуари,JBL,JBL,356,242,121,89,True
+319,Belkin Аксесуар Plus-426,Аксесуари,Belkin,Belkin,3332,2176,125,52,True
+320,Belkin Аксесуар Plus-828,Аксесуари,Belkin,Belkin,2938,2245,117,72,True
+321,Belkin Аксесуар Max-872,Аксесуари,Belkin,Belkin,1697,1434,108,27,True
+322,Sony Аксесуар Wireless-784,Аксесуари,Sony,Sony,3525,2473,115,42,False
+323,Belkin Аксесуар Mini-138,Аксесуари,Belkin,Belkin,1232,1037,125,13,True
+324,JBL Аксесуар Pro-982,Аксесуари,JBL,JBL,4533,3559,109,99,True
+325,Sony Аксесуар Plus-804,Аксесуари,Sony,Sony,1606,1051,120,3,True
+326,Belkin Аксесуар Max-315,Аксесуари,Belkin,Belkin,725,610,109,87,False
+327,Belkin Аксесуар Plus-920,Аксесуари,Belkin,Belkin,360,255,102,92,True
+328,JBL Аксесуар Max-945,Аксесуари,JBL,JBL,2248,1598,113,2,True
+329,Logitech Аксесуар Pro-901,Аксесуари,Logitech,Logitech,2130,1736,116,31,True
+330,Belkin Аксесуар Wireless-875,Аксесуари,Belkin,Belkin,376,248,106,96,True
+331,Sony Аксесуар Max-862,Аксесуари,Sony,Sony,911,680,124,39,True
+332,JBL Аксесуар Max-298,Аксесуари,JBL,JBL,3699,2560,124,25,True
+333,JBL Аксесуар Max-309,Аксесуари,JBL,JBL,2986,2023,127,34,True
+334,Belkin Аксесуар Mini-662,Аксесуари,Belkin,Belkin,4077,3164,128,81,True
+335,JBL Аксесуар Max-804,Аксесуари,JBL,JBL,3327,2552,122,46,True
+336,Belkin Аксесуар Plus-734,Аксесуари,Belkin,Belkin,1609,1251,121,37,True
+337,Samsung Аксесуар Mini-376,Аксесуари,Samsung,Samsung,3380,2618,117,11,True
+338,Belkin Аксесуар Wireless-972,Аксесуари,Belkin,Belkin,855,555,107,13,True
+339,JBL Аксесуар Max-649,Аксесуари,JBL,JBL,3809,2476,130,23,True
+340,Sony Аксесуар Max-189,Аксесуари,Sony,Sony,1567,1026,123,93,True
+341,Anker Аксесуар Pro-120,Аксесуари,Anker,Anker,3251,2489,127,66,False
+342,Belkin Аксесуар Max-620,Аксесуари,Belkin,Belkin,1067,884,112,52,True
+343,Sony Аксесуар Mini-812,Аксесуари,Sony,Sony,2130,1386,127,95,True
+344,Logitech Аксесуар Pro-726,Аксесуари,Logitech,Logitech,4035,2805,105,86,True
+345,Anker Аксесуар Pro-598,Аксесуари,Anker,Anker,270,183,104,42,True
+346,Sony Аксесуар Plus-207,Аксесуари,Sony,Sony,1897,1282,107,1,True
+347,Logitech Аксесуар Wireless-232,Аксесуари,Logitech,Logitech,3894,2673,124,32,True
+348,Logitech Аксесуар Plus-540,Аксесуари,Logitech,Logitech,1512,1057,124,56,False
+349,Anker Аксесуар Pro-183,Аксесуари,Anker,Anker,3637,2791,127,57,True
+350,Sony Аксесуар Mini-438,Аксесуари,Sony,Sony,1755,1226,121,22,True
+351,Belkin Аксесуар Plus-359,Аксесуари,Belkin,Belkin,1828,1239,120,90,True
+352,Belkin Аксесуар Plus-407,Аксесуари,Belkin,Belkin,4210,3507,128,72,True
+353,Anker Аксесуар Max-668,Аксесуари,Anker,Anker,3519,2405,129,85,True
+354,Logitech Аксесуар Plus-561,Аксесуари,Logitech,Logitech,689,553,117,6,False
+355,Logitech Аксесуар Pro-279,Аксесуари,Logitech,Logitech,540,412,123,49,True
+356,Sony Аксесуар Max-751,Аксесуари,Sony,Sony,2741,1823,121,51,True
+357,Samsung Аксесуар Max-991,Аксесуари,Samsung,Samsung,352,293,117,99,False
+358,Logitech Аксесуар Plus-644,Аксесуари,Logitech,Logitech,829,550,103,97,True
+359,Samsung Аксесуар Pro-145,Аксесуари,Samsung,Samsung,2872,2282,108,34,True
+360,Logitech Аксесуар Wireless-965,Аксесуари,Logitech,Logitech,2332,1805,103,38,False
+361,Belkin Аксесуар Mini-123,Аксесуари,Belkin,Belkin,370,261,122,99,True
+362,JBL Аксесуар Pro-645,Аксесуари,JBL,JBL,3277,2451,102,36,True
+363,Anker Аксесуар Plus-843,Аксесуари,Anker,Anker,1008,664,105,79,True
+364,Sony Аксесуар Wireless-884,Аксесуари,Sony,Sony,1854,1571,115,27,True
+365,JBL Аксесуар Plus-539,Аксесуари,JBL,JBL,4098,3314,101,75,True
+366,JBL Аксесуар Pro-876,Аксесуари,JBL,JBL,4064,3078,120,64,True
+367,Anker Аксесуар Wireless-607,Аксесуари,Anker,Anker,4760,3864,113,89,True
+368,Belkin Аксесуар Mini-178,Аксесуари,Belkin,Belkin,2693,1888,113,27,True
+369,JBL Аксесуар Max-795,Аксесуари,JBL,JBL,1926,1287,121,91,True
+370,JBL Аксесуар Wireless-188,Аксесуари,JBL,JBL,1502,1185,124,11,True
+371,Logitech Аксесуар Max-741,Аксесуари,Logitech,Logitech,4059,2789,107,24,True
+372,Sony Аксесуар Plus-976,Аксесуари,Sony,Sony,2311,1921,106,69,True
+373,JBL Аксесуар Pro-743,Аксесуари,JBL,JBL,4372,3589,123,66,True
+374,Sony Аксесуар Max-704,Аксесуари,Sony,Sony,1912,1569,118,24,True
+375,Belkin Аксесуар Plus-722,Аксесуари,Belkin,Belkin,4907,3317,116,78,True
+376,Sony Аксесуар Plus-770,Аксесуари,Sony,Sony,2105,1651,115,55,True
+377,Samsung Аксесуар Wireless-647,Аксесуари,Samsung,Samsung,2014,1605,122,54,True
+378,Anker Аксесуар Plus-254,Аксесуари,Anker,Anker,2960,2087,117,88,True
+379,Sony Аксесуар Plus-323,Аксесуари,Sony,Sony,639,448,103,59,True
+380,Samsung Аксесуар Pro-662,Аксесуари,Samsung,Samsung,472,360,109,71,False
+381,Logitech Аксесуар Mini-876,Аксесуари,Logitech,Logitech,4862,3438,113,7,True
+382,JBL Аксесуар Mini-276,Аксесуари,JBL,JBL,4116,2854,123,56,False
+383,JBL Аксесуар Pro-797,Аксесуари,JBL,JBL,3197,2555,105,47,True
+384,Samsung Аксесуар Pro-940,Аксесуари,Samsung,Samsung,237,192,118,93,True
+385,Sony Аксесуар Plus-950,Аксесуари,Sony,Sony,236,182,110,2,True
+386,Sony Аксесуар Plus-796,Аксесуари,Sony,Sony,4396,3704,104,35,True
+387,Belkin Аксесуар Plus-401,Аксесуари,Belkin,Belkin,1919,1490,112,49,False
+388,Anker Аксесуар Plus-965,Аксесуари,Anker,Anker,838,671,110,28,False
+389,Logitech Аксесуар Plus-762,Аксесуари,Logitech,Logitech,3121,2302,125,27,True
+390,Anker Аксесуар Wireless-385,Аксесуари,Anker,Anker,1195,968,107,59,True
+391,Sony Аксесуар Wireless-777,Аксесуари,Sony,Sony,3483,2518,118,56,True
+392,Belkin Аксесуар Pro-623,Аксесуари,Belkin,Belkin,3239,2560,126,84,True
+393,Sony Аксесуар Plus-134,Аксесуари,Sony,Sony,1982,1295,114,9,True
+394,Sony Аксесуар Wireless-175,Аксесуари,Sony,Sony,1681,1248,124,34,True
+395,Sony Аксесуар Plus-825,Аксесуари,Sony,Sony,2742,2260,106,10,True
+396,Sony Аксесуар Plus-846,Аксесуари,Sony,Sony,3175,2515,128,28,True
+397,Sony Аксесуар Max-881,Аксесуари,Sony,Sony,2578,1879,103,75,True
+398,Belkin Аксесуар Wireless-745,Аксесуари,Belkin,Belkin,1920,1277,127,43,False
+399,Samsung Аксесуар Wireless-244,Аксесуари,Samsung,Samsung,1127,831,108,89,True
+400,Anker Аксесуар Mini-665,Аксесуари,Anker,Anker,2819,2379,113,7,True
+401,Xiaomi Побутова технік Auto-176,Побутова техніка,Xiaomi,Xiaomi,25550,20631,106,67,True
+402,Xiaomi Побутова технік Smart-431,Побутова техніка,Xiaomi,Xiaomi,28423,21525,118,89,True
+403,LG Побутова технік Digital-371,Побутова техніка,LG,LG,20959,14605,117,68,True
+404,Samsung Побутова технік Pro-811,Побутова техніка,Samsung,Samsung,4037,2924,124,4,True
+405,LG Побутова технік Digital-817,Побутова техніка,LG,LG,22911,17660,112,0,True
+406,Bosch Побутова технік Smart-362,Побутова техніка,Bosch,Bosch,13982,11518,110,84,True
+407,Bosch Побутова технік Digital-509,Побутова техніка,Bosch,Bosch,13192,10037,129,99,True
+408,Samsung Побутова технік Smart-887,Побутова техніка,Samsung,Samsung,17995,13526,101,63,True
+409,Samsung Побутова технік Auto-761,Побутова техніка,Samsung,Samsung,11849,9458,124,53,True
+410,Philips Побутова технік Auto-155,Побутова техніка,Philips,Philips,23599,16388,122,11,True
+411,Xiaomi Побутова технік Pro-171,Побутова техніка,Xiaomi,Xiaomi,21303,16993,106,45,False
+412,Bosch Побутова технік Auto-296,Побутова техніка,Bosch,Bosch,28807,23467,118,86,True
+413,Bosch Побутова технік Digital-741,Побутова техніка,Bosch,Bosch,17391,14556,128,12,True
+414,LG Побутова технік Digital-758,Побутова техніка,LG,LG,29732,23141,111,34,True
+415,LG Побутова технік Pro-326,Побутова техніка,LG,LG,24186,15985,111,47,True
+416,Bosch Побутова технік Auto-782,Побутова техніка,Bosch,Bosch,24125,19722,111,62,True
+417,Xiaomi Побутова технік Auto-404,Побутова техніка,Xiaomi,Xiaomi,20705,17046,109,58,True
+418,Philips Побутова технік Digital-116,Побутова техніка,Philips,Philips,21511,16124,113,50,True
+419,Samsung Побутова технік Digital-283,Побутова техніка,Samsung,Samsung,16578,12661,104,45,True
+420,Dyson Побутова технік Digital-612,Побутова техніка,Dyson,Dyson,17523,14154,125,36,True
+421,Philips Побутова технік Smart-397,Побутова техніка,Philips,Philips,7287,5982,127,98,True
+422,LG Побутова технік Smart-924,Побутова техніка,LG,LG,25945,20851,113,67,True
+423,LG Побутова технік Smart-290,Побутова техніка,LG,LG,22845,16184,116,83,True
+424,Dyson Побутова технік Pro-201,Побутова техніка,Dyson,Dyson,9976,6591,116,26,True
+425,Bosch Побутова технік Pro-990,Побутова техніка,Bosch,Bosch,5729,4774,126,86,False
+426,Dyson Побутова технік Smart-642,Побутова техніка,Dyson,Dyson,26459,21045,103,7,False
+427,Dyson Побутова технік Auto-621,Побутова техніка,Dyson,Dyson,17868,13203,107,80,False
+428,LG Побутова технік Auto-742,Побутова техніка,LG,LG,26934,17579,107,51,True
+429,Philips Побутова технік Smart-340,Побутова техніка,Philips,Philips,25753,21505,124,55,True
+430,Philips Побутова технік Auto-294,Побутова техніка,Philips,Philips,27765,20712,112,48,True
+431,Bosch Побутова технік Smart-535,Побутова техніка,Bosch,Bosch,16449,12113,123,48,True
+432,LG Побутова технік Digital-127,Побутова техніка,LG,LG,26025,17555,123,55,True
+433,Dyson Побутова технік Digital-847,Побутова техніка,Dyson,Dyson,24484,19856,101,24,True
+434,LG Побутова технік Pro-948,Побутова техніка,LG,LG,24867,18898,103,83,True
+435,Bosch Побутова технік Digital-789,Побутова техніка,Bosch,Bosch,28717,23553,128,15,False
+436,Dyson Побутова технік Auto-561,Побутова техніка,Dyson,Dyson,14911,12311,115,60,True
+437,Samsung Побутова технік Auto-344,Побутова техніка,Samsung,Samsung,25272,21020,129,24,True
+438,Philips Побутова технік Digital-877,Побутова техніка,Philips,Philips,8588,6179,122,95,False
+439,LG Побутова технік Digital-336,Побутова техніка,LG,LG,21676,16972,125,32,True
+440,LG Побутова технік Pro-258,Побутова техніка,LG,LG,4738,3901,115,42,True
+441,LG Побутова технік Pro-454,Побутова техніка,LG,LG,17789,12061,113,88,True
+442,Xiaomi Побутова технік Pro-883,Побутова техніка,Xiaomi,Xiaomi,9170,7441,117,79,False
+443,LG Побутова технік Auto-822,Побутова техніка,LG,LG,18911,14209,111,73,False
+444,Samsung Побутова технік Smart-808,Побутова техніка,Samsung,Samsung,7777,5570,113,7,True
+445,LG Побутова технік Auto-849,Побутова техніка,LG,LG,8873,5770,130,62,False
+446,Philips Побутова технік Smart-156,Побутова техніка,Philips,Philips,4258,2877,121,15,True
+447,Xiaomi Побутова технік Pro-755,Побутова техніка,Xiaomi,Xiaomi,13039,11033,119,8,True
+448,Dyson Побутова технік Smart-818,Побутова техніка,Dyson,Dyson,23612,17304,124,74,False
+449,Xiaomi Побутова технік Digital-242,Побутова техніка,Xiaomi,Xiaomi,5561,4165,114,25,True
+450,Philips Побутова технік Auto-823,Побутова техніка,Philips,Philips,29566,19414,115,26,True
+451,Samsung Побутова технік Auto-235,Побутова техніка,Samsung,Samsung,20377,16932,117,54,True
+452,Philips Побутова технік Smart-855,Побутова техніка,Philips,Philips,10246,7764,130,8,True
+453,Xiaomi Побутова технік Smart-669,Побутова техніка,Xiaomi,Xiaomi,26758,22594,123,65,True
+454,Dyson Побутова технік Auto-706,Побутова техніка,Dyson,Dyson,27506,22002,117,48,False
+455,Bosch Побутова технік Smart-802,Побутова техніка,Bosch,Bosch,8069,6750,107,40,True
+456,Bosch Побутова технік Smart-942,Побутова техніка,Bosch,Bosch,5835,3831,130,26,True
+457,Xiaomi Побутова технік Auto-787,Побутова техніка,Xiaomi,Xiaomi,5651,4501,103,19,False
+458,Bosch Побутова технік Auto-527,Побутова техніка,Bosch,Bosch,24537,17513,112,38,True
+459,Samsung Побутова технік Auto-924,Побутова техніка,Samsung,Samsung,10230,7909,121,41,True
+460,Philips Побутова технік Smart-842,Побутова техніка,Philips,Philips,14301,9407,128,43,True
+461,Philips Побутова технік Smart-540,Побутова техніка,Philips,Philips,18430,12275,104,21,True
+462,Xiaomi Побутова технік Smart-782,Побутова техніка,Xiaomi,Xiaomi,14807,11721,101,40,True
+463,Philips Побутова технік Auto-967,Побутова техніка,Philips,Philips,23202,16614,123,15,True
+464,LG Побутова технік Pro-100,Побутова техніка,LG,LG,22315,14681,105,57,True
+465,Bosch Побутова технік Auto-837,Побутова техніка,Bosch,Bosch,11228,9364,104,83,True
+466,Philips Побутова технік Digital-221,Побутова техніка,Philips,Philips,7701,6103,114,23,False
+467,Xiaomi Побутова технік Pro-677,Побутова техніка,Xiaomi,Xiaomi,19970,14439,123,40,True
+468,Samsung Побутова технік Digital-104,Побутова техніка,Samsung,Samsung,15987,12365,108,4,True
+469,Samsung Побутова технік Smart-333,Побутова техніка,Samsung,Samsung,9306,7047,102,27,True
+470,LG Побутова технік Digital-802,Побутова техніка,LG,LG,17089,13555,115,94,True
+471,Samsung Побутова технік Digital-935,Побутова техніка,Samsung,Samsung,7038,5406,103,12,True
+472,Samsung Побутова технік Auto-455,Побутова техніка,Samsung,Samsung,21619,15215,120,52,False
+473,Xiaomi Побутова технік Smart-613,Побутова техніка,Xiaomi,Xiaomi,7442,5769,108,89,True
+474,Philips Побутова технік Smart-384,Побутова техніка,Philips,Philips,28903,18955,108,33,False
+475,Bosch Побутова технік Smart-928,Побутова техніка,Bosch,Bosch,25804,19981,121,91,True
+476,Dyson Побутова технік Pro-761,Побутова техніка,Dyson,Dyson,10501,7090,129,10,True
+477,Philips Побутова технік Auto-957,Побутова техніка,Philips,Philips,14036,11571,112,14,True
+478,Bosch Побутова технік Smart-116,Побутова техніка,Bosch,Bosch,10666,8760,114,67,True
+479,Samsung Побутова технік Pro-241,Побутова техніка,Samsung,Samsung,16894,14321,118,72,True
+480,Dyson Побутова технік Smart-448,Побутова техніка,Dyson,Dyson,18196,12116,127,32,True
+481,LG Побутова технік Digital-822,Побутова техніка,LG,LG,11129,8476,106,19,True
+482,Philips Побутова технік Pro-486,Побутова техніка,Philips,Philips,6658,4434,110,70,False
+483,Xiaomi Побутова технік Smart-685,Побутова техніка,Xiaomi,Xiaomi,6268,4606,128,64,True
+484,Philips Побутова технік Auto-283,Побутова техніка,Philips,Philips,3412,2772,125,17,False
+485,LG Побутова технік Smart-211,Побутова техніка,LG,LG,24848,17181,107,90,True
+486,Samsung Побутова технік Smart-180,Побутова техніка,Samsung,Samsung,27503,21478,103,84,True
+487,LG Побутова технік Auto-850,Побутова техніка,LG,LG,11107,7888,115,8,True
+488,Philips Побутова технік Digital-367,Побутова техніка,Philips,Philips,14984,11475,126,95,True
+489,Samsung Побутова технік Pro-692,Побутова техніка,Samsung,Samsung,16988,13841,126,51,True
+490,LG Побутова технік Auto-402,Побутова техніка,LG,LG,28217,19743,105,18,True
+491,Samsung Побутова технік Smart-359,Побутова техніка,Samsung,Samsung,29313,22303,120,88,True
+492,Philips Побутова технік Auto-160,Побутова техніка,Philips,Philips,20970,15356,106,91,True
+493,Xiaomi Побутова технік Auto-391,Побутова техніка,Xiaomi,Xiaomi,21887,18439,126,70,True
+494,Bosch Побутова технік Digital-559,Побутова техніка,Bosch,Bosch,12219,7973,130,96,False
+495,Samsung Побутова технік Auto-122,Побутова техніка,Samsung,Samsung,23429,17711,104,100,True
+496,Dyson Побутова технік Pro-736,Побутова техніка,Dyson,Dyson,23953,19389,105,8,False
+497,LG Побутова технік Auto-846,Побутова техніка,LG,LG,5161,3370,126,92,False
+498,Philips Побутова технік Digital-516,Побутова техніка,Philips,Philips,29135,21120,129,24,False
+499,LG Побутова технік Pro-601,Побутова техніка,LG,LG,25053,19052,103,70,True
+500,Bosch Побутова технік Pro-971,Побутова техніка,Bosch,Bosch,5098,3435,119,62,True
