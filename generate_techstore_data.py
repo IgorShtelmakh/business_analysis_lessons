@@ -260,30 +260,30 @@ def generate_orders(customers_df, n=80000):
 # 6. Генерація позицій замовлень
 def generate_order_items(orders_df, products_df):
     print(f"\n6️⃣  Генерація позицій замовлень...")
-    
+
     order_items = []
     item_id = 1
     order_totals = {}
-    
+
     active_products = products_df[products_df['is_active'] == True].copy()
-    
+
     for idx, order in orders_df.iterrows():
         if order['order_status'] == 'Cancelled':
             order_totals[order['order_id']] = 0
             continue
-        
+
         items_count = random.choices([1, 2, 3, 4, 5], weights=[0.50, 0.30, 0.12, 0.06, 0.02])[0]
-        
+
         selected_products = active_products.sample(n=min(items_count, len(active_products)))
         order_total = 0
-        
+
         for _, product in selected_products.iterrows():
             quantity = random.randint(1, 3)
             unit_price = product['unit_price']
             discount_amount = unit_price * (order['discount_percent'] / 100) * quantity
             line_total = (unit_price * quantity) - discount_amount
             order_total += line_total
-            
+
             order_items.append({
                 'order_item_id': item_id,
                 'order_id': order['order_id'],
@@ -294,23 +294,189 @@ def generate_order_items(orders_df, products_df):
                 'line_total': round(line_total, 2)
             })
             item_id += 1
-        
+
         order_totals[order['order_id']] = round(order_total + order['shipping_cost'], 2)
-        
+
         if (idx + 1) % 10000 == 0:
             print(f"   ⏳ Оброблено {idx + 1}/{len(orders_df)} замовлень...")
-    
+
     # Оновлення total_amount
     orders_df['total_amount'] = orders_df['order_id'].map(order_totals).fillna(0)
-    
+
     df = pd.DataFrame(order_items)
     print(f"   ✅ Створено {len(df)} позицій замовлень")
     return df, orders_df
 
+# 7. Генерація маркетингових кампаній
+def generate_marketing_campaigns(n=150):
+    print(f"\n7️⃣  Генерація {n} маркетингових кампаній...")
+
+    campaign_types = ['Email', 'Social Media', 'Google Ads', 'Banner', 'SMS']
+    targets = ['Всі клієнти', 'Premium', 'Standard', 'Budget', 'Нові клієнти']
+
+    campaigns = []
+    for i in range(1, n+1):
+        start_date = START_DATE + timedelta(days=random.randint(0, (END_DATE-START_DATE).days))
+        duration = random.randint(7, 30)
+        end_date = start_date + timedelta(days=duration)
+
+        budget = random.randint(5000, 50000)
+        impressions = random.randint(10000, 500000)
+        clicks = int(impressions * random.uniform(0.01, 0.08))
+        conversions = int(clicks * random.uniform(0.02, 0.15))
+        revenue = conversions * random.uniform(3000, 15000)
+
+        campaigns.append({
+            'campaign_id': i,
+            'campaign_name': f"Кампанія {i} - {random.choice(['Розпродаж', 'Новинки', 'Знижки', 'Акція'])}",
+            'campaign_type': random.choice(campaign_types),
+            'start_date': start_date.strftime('%Y-%m-%d'),
+            'end_date': end_date.strftime('%Y-%m-%d'),
+            'budget': budget,
+            'target_audience': random.choice(targets),
+            'impressions': impressions,
+            'clicks': clicks,
+            'conversions': conversions,
+            'revenue': round(revenue, 2),
+            'is_active': end_date > datetime.now()
+        })
+
+    df = pd.DataFrame(campaigns)
+    print(f"   ✅ Створено {len(df)} кампаній")
+    return df
+
+# 8. Генерація звернень в підтримку
+def generate_customer_support(customers_df, n=5000):
+    print(f"\n8️⃣  Генерація {n} звернень в підтримку...")
+
+    issue_types = ['Технічна проблема', 'Питання про товар', 'Повернення', 'Доставка',
+                   'Оплата', 'Гарантія', 'Інше']
+    statuses = ['Закрито', 'Відкрито', 'В обробці', 'Очікує відповіді клієнта']
+    channels = ['Email', 'Phone', 'Chat', 'Viber', 'Telegram']
+    priorities = ['Низький', 'Середній', 'Високий', 'Критичний']
+
+    tickets = []
+    for i in range(1, n+1):
+        created_date = START_DATE + timedelta(
+            days=random.randint(0, (END_DATE-START_DATE).days),
+            hours=random.randint(0, 23)
+        )
+
+        status = random.choices(statuses, weights=[0.75, 0.10, 0.10, 0.05])[0]
+        response_time = random.randint(10, 240) if status != 'Відкрито' else None
+        resolution_time = random.randint(30, 1440) if status == 'Закрито' else None
+
+        tickets.append({
+            'ticket_id': i,
+            'customer_id': random.choice(customers_df['customer_id'].tolist()),
+            'created_date': created_date.strftime('%Y-%m-%d %H:%M:%S'),
+            'issue_type': random.choice(issue_types),
+            'priority': random.choices(priorities, weights=[0.40, 0.35, 0.20, 0.05])[0],
+            'channel': random.choice(channels),
+            'status': status,
+            'response_time_minutes': response_time,
+            'resolution_time_minutes': resolution_time,
+            'customer_rating': random.randint(1, 5) if status == 'Закрито' else None
+        })
+
+    df = pd.DataFrame(tickets)
+    print(f"   ✅ Створено {len(df)} звернень")
+    return df
+
+# 9. Генерація трафіку сайту
+def generate_website_traffic(n=500000):
+    print(f"\n9️⃣  Генерація {n} записів трафіку...")
+
+    pages = ['Головна', 'Каталог', 'Товар', 'Кошик', 'Оформлення', 'Профіль', 'Контакти']
+    sources = ['Direct', 'Google', 'Facebook', 'Instagram', 'Email', 'Referral']
+    devices = ['Desktop', 'Mobile', 'Tablet']
+    browsers = ['Chrome', 'Safari', 'Firefox', 'Edge', 'Opera']
+
+    traffic = []
+    for i in range(1, n+1):
+        visit_date = START_DATE + timedelta(
+            days=random.randint(0, (END_DATE-START_DATE).days),
+            hours=random.randint(0, 23),
+            minutes=random.randint(0, 59)
+        )
+
+        session_duration = random.randint(10, 1800)
+        pages_viewed = random.randint(1, 20)
+
+        traffic.append({
+            'session_id': i,
+            'visit_date': visit_date.strftime('%Y-%m-%d %H:%M:%S'),
+            'page': random.choice(pages),
+            'traffic_source': random.choices(sources, weights=[0.25, 0.30, 0.15, 0.15, 0.10, 0.05])[0],
+            'device_type': random.choices(devices, weights=[0.45, 0.45, 0.10])[0],
+            'browser': random.choice(browsers),
+            'session_duration_seconds': session_duration,
+            'pages_viewed': pages_viewed,
+            'bounce': pages_viewed == 1,
+            'conversion': random.random() < 0.03
+        })
+
+        if i % 50000 == 0:
+            print(f"   ⏳ Оброблено {i}/{n} записів...")
+
+    df = pd.DataFrame(traffic)
+    print(f"   ✅ Створено {len(df)} записів трафіку")
+    return df
+
+# 10. Генерація відгуків на товари
+def generate_product_reviews(customers_df, products_df, orders_df, n=12000):
+    print(f"\n🔟 Генерація {n} відгуків на товари...")
+
+    # Тільки доставлені замовлення
+    delivered_orders = orders_df[orders_df['order_status'] == 'Delivered']['order_id'].tolist()
+
+    review_texts_positive = [
+        'Чудовий товар, рекомендую!',
+        'Все чудово, швидка доставка',
+        'Якість відмінна, дякую',
+        'Дуже задоволений покупкою',
+        'Все як на фото, супер!'
+    ]
+
+    review_texts_negative = [
+        'Не відповідає опису',
+        'Якість не дуже',
+        'Довго йшла доставка',
+        'Очікував кращого',
+        'Є нарікання'
+    ]
+
+    reviews = []
+    for i in range(1, n+1):
+        rating = random.choices([1, 2, 3, 4, 5], weights=[0.05, 0.08, 0.15, 0.35, 0.37])[0]
+
+        review_date = START_DATE + timedelta(days=random.randint(0, (END_DATE-START_DATE).days))
+
+        if rating >= 4:
+            review_text = random.choice(review_texts_positive)
+        else:
+            review_text = random.choice(review_texts_negative)
+
+        reviews.append({
+            'review_id': i,
+            'product_id': random.choice(products_df['product_id'].tolist()),
+            'customer_id': random.choice(customers_df['customer_id'].tolist()),
+            'order_id': random.choice(delivered_orders) if delivered_orders else None,
+            'rating': rating,
+            'review_text': review_text,
+            'review_date': review_date.strftime('%Y-%m-%d'),
+            'is_verified_purchase': random.random() < 0.85,
+            'helpful_votes': random.randint(0, 50)
+        })
+
+    df = pd.DataFrame(reviews)
+    print(f"   ✅ Створено {len(df)} відгуків")
+    return df
+
 # Головна функція
 def main():
     print("\n🚀 Початок генерації даних...\n")
-    
+
     # Генерація
     customers = generate_customers(15000)
     products = generate_products(500)
@@ -318,7 +484,11 @@ def main():
     locations = generate_pickup_locations()
     orders = generate_orders(customers, 80000)
     order_items, orders = generate_order_items(orders, products)
-    
+    campaigns = generate_marketing_campaigns(150)
+    support_tickets = generate_customer_support(customers, 5000)
+    traffic = generate_website_traffic(500000)
+    reviews = generate_product_reviews(customers, products, orders, 12000)
+
     # Збереження
     print("\n💾 Збереження файлів...")
     os.makedirs('data', exist_ok=True)
@@ -340,19 +510,36 @@ def main():
 
     order_items.to_csv('data/order_items.csv', index=False, encoding='utf-8-sig')
     print("   ✅ data/order_items.csv")
-    
+
+    campaigns.to_csv('data/marketing_campaigns.csv', index=False, encoding='utf-8-sig')
+    print("   ✅ data/marketing_campaigns.csv")
+
+    support_tickets.to_csv('data/customer_support.csv', index=False, encoding='utf-8-sig')
+    print("   ✅ data/customer_support.csv")
+
+    traffic.to_csv('data/website_traffic.csv', index=False, encoding='utf-8-sig')
+    print("   ✅ data/website_traffic.csv")
+
+    reviews.to_csv('data/product_reviews.csv', index=False, encoding='utf-8-sig')
+    print("   ✅ data/product_reviews.csv")
+
     # Статистика
     print("\n" + "=" * 60)
     print("📊 СТАТИСТИКА ЗГЕНЕРОВАНИХ ДАНИХ")
     print("=" * 60)
-    print(f"Клієнти:              {len(customers):,}")
-    print(f"Товари:               {len(products):,}")
-    print(f"Постачальники:        {len(suppliers):,}")
-    print(f"Пункти видачі:        {len(locations):,}")
-    print(f"Замовлення:           {len(orders):,}")
-    print(f"Позиції замовлень:    {len(order_items):,}")
-    print(f"\nЗагальна виручка:     {orders['total_amount'].sum():,.2f} грн")
-    print(f"Середній чек:         {orders[orders['total_amount'] > 0]['total_amount'].mean():,.2f} грн")
+    print(f"Клієнти:                {len(customers):,}")
+    print(f"Товари:                 {len(products):,}")
+    print(f"Постачальники:          {len(suppliers):,}")
+    print(f"Пункти видачі:          {len(locations):,}")
+    print(f"Замовлення:             {len(orders):,}")
+    print(f"Позиції замовлень:      {len(order_items):,}")
+    print(f"Маркетингові кампанії:  {len(campaigns):,}")
+    print(f"Звернення в підтримку:  {len(support_tickets):,}")
+    print(f"Записи трафіку:         {len(traffic):,}")
+    print(f"Відгуки на товари:      {len(reviews):,}")
+    print(f"\nЗагальна виручка:       {orders['total_amount'].sum():,.2f} грн")
+    print(f"Середній чек:           {orders[orders['total_amount'] > 0]['total_amount'].mean():,.2f} грн")
+    print(f"Середня оцінка товарів: {reviews['rating'].mean():.2f}")
     print("=" * 60)
     print("\n✅ Генерація завершена успішно!")
     print("📁 Файли збережено в папці data/\n")
