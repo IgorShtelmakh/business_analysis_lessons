@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "techstore": {
+      "type": "sse",
+      "url": "http://localhost:8000/mcp",
+      "headers": {
+        "Authorization": "Bearer my-secure-token-123"
+      }
+    }
+  }
+}
