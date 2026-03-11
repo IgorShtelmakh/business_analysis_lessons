@@ -31,12 +31,15 @@ Swagger UI is at `/docs` when the server is running.
 
 **Layered FastAPI app** with SQLAlchemy ORM over MySQL (`techstore` database, utf8mb4).
 
-- `app/main.py` — FastAPI entry point, registers all 10 routers
-- `app/database.py` — engine, session factory, `get_db()` dependency. Connection string from `DATABASE_URL` env var (default: `mysql+pymysql://root:password@localhost:3306/techstore`)
+- `app/main.py` — FastAPI entry point, registers all 10 routers with token auth dependency, mounts MCP server via `fastapi-mcp`
+- `app/database.py` — engine, session factory, `get_db()` dependency. Connection string from `DATABASE_URL` env var (default: `mysql+pymysql://root:@localhost:3306/techstore?charset=utf8mb4`)
+- `app/auth.py` — Bearer token auth using `HTTPBearer`. Token from `API_TOKEN` env var (default: `techstore-secret-token`). All routers require auth via `Depends(verify_token)` at the router level in `main.py`
 - `app/models.py` — 10 SQLAlchemy models with relationships: Customer, Supplier, Product, PickupLocation, Order, OrderItem, MarketingCampaign, CustomerSupport, WebsiteTraffic, ProductReview
 - `app/schemas.py` — Pydantic Base/Create/Read schemas per model (uses `from_attributes=True`)
 - `app/crud.py` — generic CRUD helpers (`_get_list`, `_get_by_id`, `_create`, `_update`, `_delete`) plus entity-specific functions
 - `app/routers/` — one router per table, standard REST (GET list, GET by id, POST, PUT, DELETE) with pagination via `skip`/`limit` query params. Nested routes: `/orders/{id}/items`, `/products/{id}/reviews`
+
+**MCP server** is auto-generated from the API routes by `fastapi-mcp` and mounted at `/mcp` (SSE). Configured in `.mcp.json` for Claude Code integration.
 
 **Data generators** are standalone scripts (not part of the API):
 - `generate_techstore_data.py` — uses pandas/numpy, outputs CSV files to `data/`

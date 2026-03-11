@@ -7,3 +7,7 @@ pymysql
 cryptography
 fastapi-mcp
 python-dotenv
+langchain
+langchain-experimental
+langchain-anthropic
+tabulate

@@ -3,6 +3,7 @@ from fastapi_mcp import FastApiMCP
 
 from .auth import verify_token
 from .routers import (
+    ask,
     customer_support,
     customers,
     marketing_campaigns,
@@ -31,6 +32,7 @@ app.include_router(marketing_campaigns.router, dependencies=[Depends(verify_toke
 app.include_router(customer_support.router, dependencies=[Depends(verify_token)])
 app.include_router(website_traffic.router, dependencies=[Depends(verify_token)])
 app.include_router(product_reviews.router, dependencies=[Depends(verify_token)])
+app.include_router(ask.router, dependencies=[Depends(verify_token)])
 
 
 mcp = FastApiMCP(app)
