@@ -1,5 +1,7 @@
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
+from fastapi_mcp import FastApiMCP
 
+from .auth import verify_token
 from .routers import (
     customer_support,
     customers,
@@ -19,16 +21,20 @@ app = FastAPI(
     version="1.0.0",
 )
 
-app.include_router(customers.router)
-app.include_router(suppliers.router)
-app.include_router(products.router)
-app.include_router(pickup_locations.router)
-app.include_router(orders.router)
-app.include_router(order_items.router)
-app.include_router(marketing_campaigns.router)
-app.include_router(customer_support.router)
-app.include_router(website_traffic.router)
-app.include_router(product_reviews.router)
+app.include_router(customers.router, dependencies=[Depends(verify_token)])
+app.include_router(suppliers.router, dependencies=[Depends(verify_token)])
+app.include_router(products.router, dependencies=[Depends(verify_token)])
+app.include_router(pickup_locations.router, dependencies=[Depends(verify_token)])
+app.include_router(orders.router, dependencies=[Depends(verify_token)])
+app.include_router(order_items.router, dependencies=[Depends(verify_token)])
+app.include_router(marketing_campaigns.router, dependencies=[Depends(verify_token)])
+app.include_router(customer_support.router, dependencies=[Depends(verify_token)])
+app.include_router(website_traffic.router, dependencies=[Depends(verify_token)])
+app.include_router(product_reviews.router, dependencies=[Depends(verify_token)])
+
+
+mcp = FastApiMCP(app)
+mcp.mount()
 
 
 @app.get("/")

@@ -5,3 +5,5 @@ uvicorn[standard]
 sqlalchemy
 pymysql
 cryptography
+fastapi-mcp
+python-dotenv
